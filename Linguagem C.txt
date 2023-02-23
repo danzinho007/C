@@ -1,35 +1,88 @@
 Linguagem C
 
 https://sourceforge.net/projects/orwelldevcpp/
-
 1-Abrir o programa :
 2-Arquivo > Novo > Projeto > Console Application > Projeto C 
 
-Linguagem C é Case Sensitive , ou seja , maiúsculas e minúsculas se diferenciam
-Cada linha de código fecha com ponto e vírgulo e chaves
+Playlist :
+https://www.youtube.com/playlist?list=PLbEOwbQR9lqxHno2S-IiG9-lePyRNOO_E
+01 - Primeiros Passos
+02 - IntroduÃ§Ã£o
+03 - 
+
+Claro, podemos falar sobre Linguagem C. A Linguagem C Ã© uma linguagem de programaÃ§Ã£o de alto nÃ­vel que foi criada nos anos 70 por Dennis Ritchie na Bell Labs. Ela Ã© amplamente utilizada em sistemas operacionais, compiladores, jogos e outras aplicaÃ§Ãµes que exigem alto desempenho.
+
+Uma das principais caracterÃ­sticas da Linguagem C Ã© sua eficiÃªncia e portabilidade. Ela foi criada com o objetivo de ser uma linguagem de programaÃ§Ã£o de sistema, ou seja, uma linguagem capaz de lidar com os recursos de hardware do computador de forma direta e eficiente.
+
+A Linguagem C tambÃ©m Ã© conhecida por sua sintaxe simples e direta, o que a torna fÃ¡cil de aprender e escrever. AlÃ©m disso, ela possui uma vasta biblioteca padrÃ£o que oferece muitas funcionalidades Ãºteis, como manipulaÃ§Ã£o de arquivos, entrada e saÃ­da, gerenciamento de memÃ³ria, entre outras.
+
+Outra vantagem da Linguagem C Ã© sua capacidade de interagir facilmente com outras linguagens de programaÃ§Ã£o, como C++, Python e Java, por exemplo. Isso torna a Linguagem C uma escolha popular para o desenvolvimento de projetos complexos que envolvem diversas linguagens.
+
+No entanto, a Linguagem C tambÃ©m tem suas limitaÃ§Ãµes. Ela Ã© uma linguagem de baixo nÃ­vel, o que significa que Ã© mais difÃ­cil de aprender e de escrever do que outras linguagens de programaÃ§Ã£o de alto nÃ­vel, como Python ou Ruby, por exemplo. AlÃ©m disso, a Linguagem C nÃ£o oferece recursos de seguranÃ§a de memÃ³ria, o que pode tornar os programas vulnerÃ¡veis a erros de programaÃ§Ã£o que podem levar a falhas do sistema.
+
+Em resumo, a Linguagem C Ã© uma linguagem poderosa e eficiente que Ã© amplamente utilizada em sistemas operacionais, compiladores, jogos e outras aplicaÃ§Ãµes que exigem alto desempenho. Se vocÃª estÃ¡ interessado em aprender a Linguagem C, Ã© importante dedicar tempo para estudar sua sintaxe e aprender as melhores prÃ¡ticas de programaÃ§Ã£o para evitar erros e garantir a seguranÃ§a do sistema.
+
+Historico 
+
+1972 - Linguagem C
+1990 - ANSI
+1998 - ISO 
+2011 - C11
+2018 - C18 ( ISO/IEC)
+
+Extensao : .c 
+.c > Compilador .exe > PC executa o exe
+
+Caracteristicas :
+
+Proxima ao Hardware
+PortÃ¡vel
+Alta Performance = PrÃ³xima do Computador
+Modular
+Simples
+Uso Geral
+
+Quem usa ? Maioria Hardware
+
+Sistemas Operacionais
+Drivers
+Sistemas Embarcados ( Drone )
+Microcontroladores
+FPGA
+AutomaÃ§Ã£o
+RobÃ³tica
+IoT 
+
+Requisitos :
+Editor de Texto + Compilador
+IDE ( Desenvolver e Depurar )
+-------------------------------
+
+Linguagem C e Case Sensitive , ou seja , maiusculas e minusculas se diferenciam
+Cada linha de codigo fecha com ponto e vï¿½rgulo e chaves
 
 // As linhas abaixo "chamam" as bibliotecas
 
-// Entrada e saída do sistema
+// Entrada e saï¿½da do sistema
 #include <stdio.h>
 
-// Funções básicas do sistema
+// Funï¿½ï¿½es bï¿½sicas do sistema
 #include <stdlib.h>
 
-// Comentários são ignorados pelo aplicativo
+// Comentï¿½rios sï¿½o ignorados pelo aplicativo
 
-/* comentários em bloco */ 
-// comentário
+/* comentï¿½rios em bloco */ 
+// comentï¿½rio
 
 
-// int Números inteiros de –32768 a 32767
-// main ou principal é o ponto de partida
-Dentro do main teremos parâmetros
-// argc é número de linhas do código
-// char é um tipo de variável que aceita qualquer coisa ( Caracter , letra , número , etc )
-// argv é o conteúdo das linhas do código
-// return 0 é uma função de retorno ao main
-// 0 indica que o aplicativo retornou sem erros no código
+// int Nï¿½meros inteiros de ï¿½32768 a 32767
+// main ou principal ï¿½ o ponto de partida
+Dentro do main teremos parï¿½metros
+// argc ï¿½ nï¿½mero de linhas do cï¿½digo
+// char ï¿½ um tipo de variï¿½vel que aceita qualquer coisa ( Caracter , letra , nï¿½mero , etc )
+// argv ï¿½ o conteï¿½do das linhas do cï¿½digo
+// return 0 ï¿½ uma funï¿½ï¿½o de retorno ao main
+// 0 indica que o aplicativo retornou sem erros no cï¿½digo
 
 int main (int argc, char *argv[]
 {
@@ -42,28 +95,28 @@ int main (int argc, char *argv[]
 
 // printf = Escreve na tela o texto
 // \n = pula uma linha
-// system = Pede pra você apertar algo
+// system = Pede pra vocï¿½ apertar algo
 
 Para executar o aplicativo = Executar > Compilar & Executar 
 
 Arquivo > Salvar todos
 
-Abrir a pasta onde está salvo :
-Aplicativo = Executável
+Abrir a pasta onde estï¿½ salvo :
+Aplicativo = Executï¿½vel
 ( O computador precisa ter o PromptDOS pra funcionar )
-C Source File = Código Fonte
+C Source File = Cï¿½digo Fonte
 
 Biblioteca de idiomas
 #include <locale.h>
 
-//A linha abaixo configura o idioma para português
+//A linha abaixo configura o idioma para portuguï¿½s
 setlocale(LC_ALL,"Portuguese");
 //A linha abaixo muda a cor do texto
-// Códigos das cores : 
+// Cï¿½digos das cores : 
 0 Preto 
 1 Azul 
 2 Verde  
-3 Verde Água 
+3 Verde ï¿½gua 
 4 Vermelho
 5 Roxo
 6 Amarelo
@@ -71,13 +124,13 @@ setlocale(LC_ALL,"Portuguese");
 8 Cinza 
 9 Azul Claro
 A verde claro
-B verde-água Claro
+B verde-ï¿½gua Claro
 C Vermelho-claro
-D Lilás
+D Lilï¿½s
 E Amarelo Claro
 F Branco Brilhante
 system("color A");
 // Fundo azul letra branco
-// Primeira é o fundo e segundo é a letra
+// Primeira ï¿½ o fundo e segundo ï¿½ a letra
 system("color 1F");
 
