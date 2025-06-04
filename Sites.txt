@@ -1,0 +1,19 @@
+LinguagemC_Sites:
+
+https://sourceforge.net/projects/orwelldevcpp/
+1-Abrir o programa :
+2-Arquivo > Novo > Projeto > Console Application > Projeto C 
+
+Playlist :
+https://www.youtube.com/playlist?list=PLbEOwbQR9lqxHno2S-IiG9-lePyRNOO_E
+01 - Primeiros Passos
+02 - Introdução
+03 - 
+
+Como instalar no VSC:
+https://www.youtube.com/watch?v=3pfRvy_gfqY
+
+Online:
+https://www.onlinegdb.com/
+ou
+https://www.tutorialspoint.com/compilers/online-c-compiler.htm

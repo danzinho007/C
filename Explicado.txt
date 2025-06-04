@@ -1,15 +1,3 @@
-Linguagem C
-
-https://sourceforge.net/projects/orwelldevcpp/
-1-Abrir o programa :
-2-Arquivo > Novo > Projeto > Console Application > Projeto C 
-
-Playlist :
-https://www.youtube.com/playlist?list=PLbEOwbQR9lqxHno2S-IiG9-lePyRNOO_E
-01 - Primeiros Passos
-02 - Introdução
-03 - 
-
 Claro, podemos falar sobre Linguagem C. A Linguagem C é uma linguagem de programação de alto nível que foi criada nos anos 70 por Dennis Ritchie na Bell Labs. Ela é amplamente utilizada em sistemas operacionais, compiladores, jogos e outras aplicações que exigem alto desempenho.
 
 Uma das principais características da Linguagem C é sua eficiência e portabilidade. Ela foi criada com o objetivo de ser uma linguagem de programação de sistema, ou seja, uma linguagem capaz de lidar com os recursos de hardware do computador de forma direta e eficiente.
